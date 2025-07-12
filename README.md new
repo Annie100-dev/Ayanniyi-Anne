@@ -1,0 +1,66 @@
+# Telco Customer Churn Prediction Project
+
+This project analyzes churn behavior in a telecom company and builds predictive models to help reduce customer attrition. The dataset includes demographic, account, and service usage data for over 7,000 customers.
+
+## 📊 Dataset
+- **Source:** IBM Sample Telco Customer Churn dataset
+- **Rows:** ~7,000 customers
+- **Columns:** 21 features
+- **Target Variable:** `Churn` (Yes/No)
+
+## 🧠 Modeling Approach
+We trained and evaluated the following models:
+- Logistic Regression
+- Random Forest
+- Gradient Boosting
+- Support Vector Machine (SVM)
+
+Evaluation metrics included accuracy, precision, recall, F1-score, and ROC-AUC.
+
+## 💡 Business Insights & Recommendations
+
+### Key Findings
+- **Contract Type:** Month-to-month customers are most likely to churn.
+- **Tenure:** Churn decreases significantly after the first year.
+- **Paperless Billing:** Associated with higher churn.
+- **Internet Service:** Fiber optic users have higher churn risk.
+- **Senior Citizens:** Slightly elevated churn rates.
+
+### Recommendations
+1. **Encourage long-term contracts** with discounts and perks.
+2. **Focus onboarding efforts** during the first 3 months.
+3. **Targeted retention offers** for fiber optic and paperless billing customers.
+4. **Deploy churn prediction scoring** in production.
+5. **Continuously monitor satisfaction** via surveys and outreach.
+
+Results
+Best model achieved:
+
+Accuracy ~80%
+
+ROC-AUC ~0.85
+
+Author
+Anne Ayanniyi
+
+# Libaries
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+streamlit
+joblib
+
+
+
+
+
+
+
+
+
+
+
+
+
